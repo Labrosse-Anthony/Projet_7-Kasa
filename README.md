@@ -1,16 +1,39 @@
-# React + Vite
+# Formation Integrateur web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## PROJET 7-Kasa
+Projet n°7 de la formation Developpeur Web OPENCLASSROOMS 
 
-Currently, two official plugins are available:
+### Contexte :
+Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans. L'entreprise souhaite faire une refonte totale de son site web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Langages utilisés :
+HTML5 / CSS3 / SASS / JavaScript / React
 
-## React Compiler
+### Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+:one: Clonez ou téléchargez ce repo
 
-## Expanding the ESLint configuration
+:two: Depuis le dossier du repo dans votre IDE, ouvrez un terminal et installez le projet :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+npm install
+```
+
+:three: Tapez l'instruction suivante pour lancer le projet :
+
+```
+npm run start
+```
+
+le projet se lancera via la page [http://localhost:5173](http://localhost:5173)
+A chaque changement, la page se rechargera.
+
+:four: Si vous souhaitez modifier le style, vous pouvez lancer Sass :
+
+```
+npm run sass
+```
+
+Sass compilera automatiquement tous les changements dans le fichier style.css.
+
+
