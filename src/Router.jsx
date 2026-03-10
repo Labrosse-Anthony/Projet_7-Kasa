@@ -4,13 +4,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Logement from './pages/Logement';
 import Error from './pages/Error';
-import Header from './components/Header'; // <-- Nouvel import
-import Footer from './components/Footer'; // <-- Nouvel import
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function Router() {
   return (
     <BrowserRouter>
-      {/* Le Header est au-dessus des Routes, il sera toujours visible */}
       <Header />
       
       <Routes>
@@ -20,7 +19,6 @@ function Router() {
         <Route path="*" element={<Error />} />
       </Routes>
 
-      {/* Le Footer est en dessous des Routes, il sera toujours visible */}
       <Footer />
     </BrowserRouter>
   );

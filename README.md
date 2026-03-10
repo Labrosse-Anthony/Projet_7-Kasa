@@ -10,6 +10,7 @@
 
 ### Installation
 
+Pour lancer le projet dans le terminal taper : npm start
 
 
 
