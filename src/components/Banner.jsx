@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.scss';
+import '../assets/style/banner.scss';
 
 function Banner() {
   return (
