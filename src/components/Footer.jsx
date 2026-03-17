@@ -1,6 +1,6 @@
 import React from 'react';
 import logoWhite from '../assets/images/logo-white.svg'
-import '../assets/style/footer.scss'
+import './footer.scss'
 
 function Footer() {
   return (
