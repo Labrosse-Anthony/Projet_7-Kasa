@@ -1,0 +1,53 @@
+.collapse {
+  width: 100%;
+  margin-bottom: 30px;
+
+  .collapse-header {
+    background-color: #FF6060;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .arrow {
+      width: 24px;
+      height: 24px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .arrow-up {
+      transform: rotate(-180deg); // Fait pointer la flèche vers le haut quand c'est ouvert
+    }
+    
+    .arrow-down {
+      transform: rotate(0deg); // Reste vers le bas quand c'est fermé
+    }
+  }
+
+  .collapse-content {
+    background-color: #F6F6F6;
+    color: #000000;
+    padding: 30px 20px 20px 20px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 1;
+
+    p {
+      font-size: 18px;
+      line-height: 1.4;
+      margin: 0;
+    }
+  }
+}
