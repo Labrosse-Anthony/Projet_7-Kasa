@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+
+  .about-container {
+    width: 100%;
+    max-width: 1023px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 38px;
+    margin-bottom: 50px;
+  }
+}

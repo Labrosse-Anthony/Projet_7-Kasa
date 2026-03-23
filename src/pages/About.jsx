@@ -1,6 +1,7 @@
 import React from "react";
 import Collapse from '../components/Collapse';
 import AboutBanner from '../components/AboutBanner';
+import '../pages/about.scss';
 
 function About() {
   const aboutData = [

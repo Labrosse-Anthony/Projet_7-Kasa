@@ -1,12 +1,11 @@
 .about-banner {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    max-width: 1240px;
     height: 223px;
     border-radius: 25px;
-    margin: 0 100px;
     background: linear-gradient(rgba(0, 0, 0, 0.3)), url(../assets/images/banner-about.png);
     background-size: cover;
     background-position: center;
-        
+
 }
