@@ -3,10 +3,10 @@ import arrow from '../assets/images/arrow.svg';
 import '../components/collapse.scss';
 
 function Collapse({ title, content }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); /* État pour savoir si le contenu est ouvert ou fermé */
 
-  const toggleCollapse = () => {
-    setIsOpen(!isOpen);
+  const toggleCollapse = () => { /* Fonction pour ouvrir/fermer le contenu */
+    setIsOpen(!isOpen); /* Inverse l'état actuel : si c'est ouvert, ça le ferme, et vice versa */
   };
 
   return (
@@ -20,7 +20,7 @@ function Collapse({ title, content }) {
         />
       </div>
       
-      {isOpen && (
+      {isOpen && ( /* Affiche le contenu seulement si isOpen est true */
         <div className="collapse-content">
           <p>{content}</p>
         </div>
