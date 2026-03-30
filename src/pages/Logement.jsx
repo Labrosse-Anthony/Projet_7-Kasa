@@ -3,6 +3,7 @@ import { useParams, Navigate } from 'react-router-dom';
 /* Vérifie bien le chemin vers ton fichier JSON (adapte-le si besoin) */
 import data from '../assets/data/Logements.json'; 
 import Slideshow from '../components/Slideshow';
+import './logement.scss';
 
 function Logement() {
   /* On récupère l'ID directement depuis l'URL (ex: /logement/c67ab8a7) */
