@@ -19,6 +19,26 @@ function Logement() {
     <main className="logement-page">
       <Slideshow pictures={logement.pictures} />
       
+      {/* Le bloc qui contient les infos principales */}
+      <div className="logement-header">
+        
+        {/* À gauche : Le titre et la ville */}
+        <div className="logement-title-location">
+          <h1 className="logement-title">{logement.title}</h1>
+          <p className="logement-location">{logement.location}</p>
+        </div>
+
+        /* À droite : Le profil de l'hôte */
+        <div className="logement-host">
+          <p className="host-name">{logement.host.name}</p>
+          <img 
+            src={logement.host.picture} 
+            alt={`Profil de ${logement.host.name}`} 
+            className="host-picture" 
+          />
+        </div>
+
+      </div>
     </main>
   );
 }
