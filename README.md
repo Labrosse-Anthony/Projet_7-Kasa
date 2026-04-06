@@ -6,7 +6,7 @@
 
 ## Outils et langages pour la réalisation du projet
 
-- Le projet a été réalisé en **HTML**, **CSS** , **JavaScript** et **CSS**
+- Le projet a été réalisé en **HTML**, **CSS** , **JavaScript** et **React**
 
 ### Installation
 
