@@ -6,6 +6,7 @@ import Slideshow from '../components/Slideshow';
 import './logement.scss';
 import starfull from '../assets/images/star-full.svg';
 import starempty from '../assets/images/star-empty.svg';
+import Collapse from '../components/Collapse';
 
 function Logement() {
   /* On récupère l'ID directement depuis l'URL (ex: /logement/c67ab8a7) */
@@ -63,7 +64,26 @@ function Logement() {
             ))}
           </div>
         </div>
-
+      </div>
+      <div className="logement-collapses">
+        
+        <div className="logement-collapse-item">
+          <Collapse title="Description" content={logement.description} />
+        </div>
+        
+        <div className="logement-collapse-item">
+          <Collapse 
+            title="Équipements" 
+            /* On boucle sur les équipements pour créer une vraie liste HTML */
+            content={
+              <ul>
+                {logement.equipments.map((equip, index) => (
+                  <li key={index}>{equip}</li>
+                ))}
+              </ul>
+            } 
+          />
+        </div>
       </div>
     </main>
   );
