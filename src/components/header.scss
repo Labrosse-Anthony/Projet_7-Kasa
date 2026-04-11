@@ -27,4 +27,22 @@
             text-decoration: underline;
         }
     }
+
+    /* Version Mobile */
+    @media (max-width: 768px) {
+        padding: 20px;
+        
+        img {
+            height: 45px;
+        }
+
+        nav {
+            gap: 15px;
+        }
+
+        a {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
 }
