@@ -41,3 +41,31 @@
     z-index: 10;
   }
 }
+
+@media (max-width: 768px) {
+  .slideshow {
+    height: 255px;
+    margin-bottom: 15px;
+
+    .slideshow-image {
+      border-radius: 10px;
+    }
+
+    .arrow {
+      height: 24px;
+      width: 24px;
+    }
+
+    .arrow-left {
+      left: 5px;
+    }
+
+    .arrow-right {
+      right: 5px;
+    }
+
+    .slideshow-counter {
+      display: none;
+    }
+  }
+}
