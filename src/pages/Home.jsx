@@ -6,7 +6,7 @@ import Header from '../components/Header';
 function Home() {
   return (
     <div>
-      <Banner />
+      <Banner texte="Chez vous, partout et ailleurs" />
       <Gallery/>
     </div>
   );

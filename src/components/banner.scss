@@ -1,13 +1,11 @@
 .banner {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 223px;
     border-radius: 25px;
-    margin: 0 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/banner-home.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 223px;
 
     h1 {
         color: white;
@@ -15,18 +13,38 @@
         font-weight: 700;
         margin: 0;
     }
+
+    &.banner-home {
+        justify-content: center;
+        margin: 0 100px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/banner-home.png);
+    }
+
+    &.banner-about {
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1240px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/images/banner-about.png);
+    }
     
     /* Version Mobile */
     @media (max-width: 768px) {
         height: 111px;
-        margin: 0 20px;
         border-radius: 10px;
-        justify-content: flex-start;
 
-        h1 {
-            font-size: 24px;
-            padding: 0 15px;
-            max-width: 250px;
+        &.banner-home {
+            justify-content: flex-start;
+            margin: 0 20px;
+            h1 {
+                font-size: 24px;
+                padding: 0 15px;
+                max-width: 250px;
+            }
+        }
+
+        &.banner-about {
+             margin: 0 20px;
         }
     }
 }
