@@ -6,7 +6,7 @@ function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false); /* État pour savoir si le contenu est ouvert ou fermé */
 
   const toggleCollapse = () => { /* Fonction pour ouvrir/fermer le contenu */
-    setIsOpen(!isOpen); /* Inverse l'état actuel : si c'est ouvert, ça le ferme, et vice versa */
+    setIsOpen(!isOpen); /* Inverse l'état actuel : si c'est ouvert, ça le ferme, et inversement */
   };
 
   return (

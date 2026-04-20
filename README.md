@@ -1,6 +1,6 @@
 # Kasa
 
-![Aperçu du site Kasa](assets/images/Kasa.png)
+![Aperçu du site Kasa](./src/assets/images/Kasa-Projet_7.png)
 
 - Ce travail a été réalisé dans le cadre du projet n°7 de la formation Intégrateur Web d’OpenClassrooms.
 
