@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function Router() {
   return (
-    <BrowserRouter basename='Projet_7-Kasa'>
+    <BrowserRouter basename='/Projet_7-Kasa/'>
 
       <Header />
       
